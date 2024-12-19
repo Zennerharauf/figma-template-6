@@ -1,21 +1,40 @@
 
 import Image from "next/image";
+import image1 from "../public/product/Syltherine.png"
+import image2 from "../public/product/Lolito.png"
+import image3 from "../public/product/Respira.jpeg"
+import image4 from "../public/product/Grifo.png"
+import image5 from "../public/product/Muggo.png"
+import image6 from "../public/product/Pingky.jpeg"
+import image7 from "../public/product/Potty.jpeg"
 
-const products = [
+
+import { StaticImageData } from "next/image";
+
+interface productsprops {
+  id:number;
+  name:string;
+  description:string;
+  price:string;
+  discount:string;
+  image:StaticImageData
+}
+const products:productsprops []= [
   {
     id: 1,
     name: "Syltherine",
     description: "Stylish cafe chair",
     price: "Rp 2.500.000",
     discount: "30%",
-    image: "/public/Syltherine.png",
+    image:image1,
   },
   {
     id: 2,
     name: "Leviosa",
     description: "Stylish cafe chair",
+    discount:"1%",
     price: "Rp 2.500.000",
-    image: "/leviosa.jpg",
+    image: image2,
   },
   {
     id: 3,
@@ -23,28 +42,31 @@ const products = [
     description: "Luxury big sofa",
     price: "Rp 7.000.000",
     discount: "50%",
-    image: "/lolito.jpg",
+    image:image3,
   },
   {
     id: 4,
     name: "Respira",
     description: "Outdoor bar table and stool",
     price: "Rp 500.000",
-    image: "/respira.jpg",
+    discount:"2%",
+    image: image4,
   },
   {
     id: 5,
     name: "Grifo",
     description: "Night lamp",
+    discount:"1%",
     price: "Rp 1.500.000",
-    image: "/grifo.jpg",
+    image: image5,
   },
   {
     id: 6,
     name: "Muggo",
     description: "Small mug",
+    discount:"1%",
     price: "Rp 150.000",
-    image: "/muggo.jpg",
+    image: image6,
   },
   {
     id: 7,
@@ -52,14 +74,15 @@ const products = [
     description: "Cute bed set",
     price: "Rp 7.000.000",
     discount: "50%",
-    image: "/pingky.jpg",
+    image: image7,
   },
   {
     id: 8,
     name: "Potty",
     description: "Multifunctional flower pot",
+    discount:"1%",
     price: "Rp 500.000",
-    image: "/potty.jpg",
+    image: image7,
   },
 ];
 
