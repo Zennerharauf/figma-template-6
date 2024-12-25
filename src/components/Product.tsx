@@ -1,12 +1,12 @@
-
 import Image from "next/image";
 import image1 from "../public/product/Syltherine.png"
-import image2 from "../public/product/Lolito.png"
-import image3 from "../public/product/Respira.jpeg"
-import image4 from "../public/product/Grifo.png"
-import image5 from "../public/product/Muggo.png"
-import image6 from "../public/product/Pingky.jpeg"
-import image7 from "../public/product/Potty.jpeg"
+import image2 from "../public/product/leviosa.png"
+import image3 from "../public/product/Lolito.png"
+import image4 from "../public/product/Respira.jpeg"
+import image5 from "../public/product/Grifo.png"
+import image6 from "../public/product/Muggo.png"
+import image7 from "../public/product/Pingky.jpeg"
+import image8 from "../public/product/Potty.jpeg"
 
 
 import { StaticImageData } from "next/image";
@@ -82,7 +82,7 @@ const products:productsprops []= [
     description: "Multifunctional flower pot",
     discount:"1%",
     price: "Rp 500.000",
-    image: image7,
+    image: image8,
   },
 ];
 

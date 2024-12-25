@@ -1,4 +1,5 @@
 import BrowseTheRange from "@/components/BrowseTheRange";
+import Footer from "@/components/Footer";
 import Furniture from "@/components/Furniture";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
@@ -16,6 +17,7 @@ export default function Home() {
      <Product/>
      <Inspiration/>
      <Furniture/>
+     <Footer/>
     </div>
   )
 }
